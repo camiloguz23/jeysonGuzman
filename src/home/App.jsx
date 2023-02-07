@@ -3,6 +3,7 @@ import { Header } from "../components";
 import Intro from "../components/Intro/Intro";
 import About from "../components/About/About";
 import Skill from "../components/Skill/Skill";
+import ExperienceTime from "../components/TimeExperience/TimeLine";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <About />
       <Skill />
+      <ExperienceTime />
     </>
   );
 }

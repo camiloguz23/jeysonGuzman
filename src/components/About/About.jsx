@@ -9,8 +9,8 @@ import Cube from "../cube/Cube";
 const About = () => {
   return (
     <div className="about" id="about">
-      <Cube setStyle={{ top: 0, left: 30}} />
-      <Cube setStyle={{ bottom: 0, left: 100}}/>
+      <Cube setStyle={{ top: 80, left: 30}} />
+      <Cube setStyle={{ bottom: 0, right: 40}}/>
       <div className="containerAbout">
         <div className="info">
           <p>

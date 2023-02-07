@@ -7,10 +7,10 @@ import next from "../../../../assets/next.svg";
 import git from "../../../../assets/git.svg";
 import mysql from "../../../../assets/mysql.svg";
 import mongo from "../../../../assets/mongoDB.svg";
-import node from "../../../../assets/node.svg"
+import node from "../../../../assets/node.svg";
 import "./LanguagesProgramming.scss";
 
-const LanguagesProgramming = () => {
+const LanguagesProgramming = ({ onRol }) => {
   const [selected, isSelected] = useState("");
 
   const isSelectedBtn = (type, selected) => {
@@ -45,7 +45,10 @@ const LanguagesProgramming = () => {
           className={`btn Frontend ${
             isSelectedBtn("frontend", selected) && "selected"
           }`}
-          onClick={() => isSelected("frontend")}
+          onClick={() => {
+            isSelected("frontend");
+            onRol("frontend");
+          }}
         >
           Frontend
         </button>
@@ -53,7 +56,10 @@ const LanguagesProgramming = () => {
           className={`btn Backend ${
             isSelectedBtn("backend", selected) && "selected"
           }`}
-          onClick={() => isSelected("backend")}
+          onClick={() => {
+            isSelected("backend");
+            onRol("backend")
+          }}
         >
           Backend
         </button>
@@ -61,8 +67,12 @@ const LanguagesProgramming = () => {
       <div className="listLanguages">
         {setListLanguages(selected).map((item, index) => (
           <div className="contentLanguage" key={index}>
-            <img className="icon" src={item.icon} alt={`icon from ${item.name}`} />
-            <span >{item.name}</span>
+            <img
+              className="icon"
+              src={item.icon}
+              alt={`icon from ${item.name}`}
+            />
+            <span>{item.name}</span>
           </div>
         ))}
       </div>

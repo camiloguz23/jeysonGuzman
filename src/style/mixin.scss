@@ -20,3 +20,8 @@
   text-align: start;
   margin-bottom: 20px;
 }
+
+@mixin glassEffect ($visibility,$blur) {
+  background-color: hsla(230°, 92%, 14%, $visibility);
+  backdrop-filter: blur($blur);
+}

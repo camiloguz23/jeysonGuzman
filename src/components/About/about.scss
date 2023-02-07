@@ -38,6 +38,7 @@
       
       .titleContact {
         @include label(160px);
+        @include glassEffect(0.1, 20px);
   
         i {
           margin-right: 20px;

@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="nav">
         <Links path={"#about"} title={"About"} />
         <Links path={"#skill"} title={"Skill"} />
-        <Links path={"#projects"} title={"Projects"} />
+        <Links path={"#experience"} title={"Experience"} />
       </nav>
     </header>
   );

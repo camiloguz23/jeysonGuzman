@@ -23,28 +23,101 @@
     left: 40px;
     border: solid 14px #6347ee;
     box-shadow: 1px 1px 20px #6347ee;
-    @include animatedGraphic(lineOne, 0s);
+    height: 30px;
+
+    &.frontend{
+      height: 250px;
+      &::before {
+        content: "React";
+        position: absolute;
+        top: -40px;
+        left: -30px;
+      }
+    }
+
+    &.backend {
+      height: 200px;
+      &::before {
+        content: "NodeJS";
+        position: absolute;
+        top: -40px;
+        left: -30px;
+      }
+    }
+
   }
   .line2 {
     bottom: 0;
     left: 120px;
     border: solid 14px #d2a0ff;
     box-shadow: 1px 1px 20px #d2a0ff;
-    @include animatedGraphic(lineTwo, 0.5s);
+    height: 30px;
+    &.frontend{
+      height: 190px;
+      &::before {
+        content: "Next JS";
+        position: absolute;
+        width: 60px;
+        top: -40px;
+        left: -30px;
+      }
+    }
+
+    &.backend {
+      height: 210px;
+      &::before {
+        content: "MySQL";
+        position: absolute;
+        top: -40px;
+        left: -30px;
+      }
+    }
   }
   .line3 {
     bottom: 0;
     left: 200px;
     border: solid 14px #8861ff;
     box-shadow: 2px 2px 10px #8861ff;
-    @include animatedGraphic(lineThree, 2s);
+    height: 30px;
+
+    &.frontend{
+      height: 210px;
+      &::before {
+        content: "Angular";
+        position: absolute;
+        top: -40px;
+        left: -30px;
+      }
+    }
+
+    &.backend {
+      height: 170px;
+      &::before {
+        content: "MongoDB";
+        position: absolute;
+        width: 50px;
+        top: -40px;
+        left: -30px;
+      }
+    }
   }
   .line4 {
     bottom: 0;
     left: 280px;
     border: solid 14px #b080ff;
     box-shadow: 1px 1px 20px #b080ff;
-    @include animatedGraphic(lineFour, 1.2s);
+    height: 30px;
+
+    &.frontend, &.backend{
+      height: 230px;
+      &::before {
+        content: "Git";
+        position: absolute;
+        top: -40px;
+        left: -30px;
+      }
+    }
+
   }
 }
 
