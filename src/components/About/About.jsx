@@ -4,10 +4,13 @@ import email from "../../assets/email.svg";
 import linkedin from "../../assets/linkedin.svg";
 import cv from "../../assets/camilo_cv.pdf";
 import "./about.scss";
+import Cube from "../cube/Cube";
 
 const About = () => {
   return (
     <div className="about" id="about">
+      <Cube setStyle={{ top: 0, left: 30}} />
+      <Cube setStyle={{ bottom: 0, left: 100}}/>
       <div className="containerAbout">
         <div className="info">
           <p>
