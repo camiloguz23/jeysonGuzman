@@ -3,7 +3,7 @@
 .contentGraphic {
   border-radius: 6px;
   width: 22.5rem;
-  height: 22.5rem;
+  height: 25.5rem;
   position: relative;
   box-shadow: 10px 10px 20px #a8aaad, -10px -10px 20px #ffffff;
 
@@ -20,13 +20,13 @@
 
   .line1 {
     bottom: 0;
-    left: 40px;
+    left: 2.5rem;
     border: solid 14px #6347ee;
     box-shadow: 1px 1px 20px #6347ee;
     height: 30px;
 
     &.frontend{
-      height: 250px;
+      height: 290px;
       &::before {
         content: "React";
         position: absolute;
@@ -36,7 +36,7 @@
     }
 
     &.backend {
-      height: 200px;
+      height: 220px;
       &::before {
         content: "NodeJS";
         position: absolute;
@@ -48,12 +48,12 @@
   }
   .line2 {
     bottom: 0;
-    left: 120px;
+    left: 7.5rem;
     border: solid 14px #d2a0ff;
     box-shadow: 1px 1px 20px #d2a0ff;
     height: 30px;
     &.frontend{
-      height: 190px;
+      height: 230px;
       &::before {
         content: "Next JS";
         position: absolute;
@@ -64,7 +64,7 @@
     }
 
     &.backend {
-      height: 210px;
+      height: 240px;
       &::before {
         content: "MySQL";
         position: absolute;
@@ -75,13 +75,13 @@
   }
   .line3 {
     bottom: 0;
-    left: 200px;
+    left: 12.5rem;
     border: solid 14px #8861ff;
     box-shadow: 2px 2px 10px #8861ff;
     height: 30px;
 
     &.frontend{
-      height: 210px;
+      height: 230px;
       &::before {
         content: "Angular";
         position: absolute;
@@ -91,7 +91,7 @@
     }
 
     &.backend {
-      height: 170px;
+      height: 190px;
       &::before {
         content: "MongoDB";
         position: absolute;
@@ -103,13 +103,13 @@
   }
   .line4 {
     bottom: 0;
-    left: 280px;
+    left: 17.5rem;
     border: solid 14px #b080ff;
     box-shadow: 1px 1px 20px #b080ff;
     height: 30px;
 
     &.frontend, &.backend{
-      height: 230px;
+      height: 290px;
       &::before {
         content: "Git";
         position: absolute;

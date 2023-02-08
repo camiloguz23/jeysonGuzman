@@ -11,7 +11,7 @@ import node from "../../../../assets/node.svg";
 import "./LanguagesProgramming.scss";
 
 const LanguagesProgramming = ({ onRol }) => {
-  const [selected, isSelected] = useState("");
+  const [selected, isSelected] = useState("frontend");
 
   const isSelectedBtn = (type, selected) => {
     return selected === type;

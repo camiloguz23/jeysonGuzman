@@ -5,7 +5,7 @@ import LanguagesProgramming from "./components/LanguagesPogramming/LanguagesProg
 import Cube from "../cube/Cube";
 
 const Skill = () => {
-  const [rol,setRol] = useState("")
+  const [rol,setRol] = useState("frontend")
   return (
     <div className="skill-content" id="skill">
       <Graphic rol={rol} />

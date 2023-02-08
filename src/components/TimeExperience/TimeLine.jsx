@@ -36,7 +36,7 @@ export default function ExperienceTime() {
   };
   return (
     <div className="timeLine" id="experience">
-      <Cube setStyle={{top:80,right:260}}/>
+      <Cube setStyle={{top:80,right:"5rem"}}/>
       <div className="contentTime">
         <Timeline position="alternate">
           <TimelineItem>
@@ -123,7 +123,7 @@ export default function ExperienceTime() {
           <p className="description">{company.description}</p>
         </div>
       )}
-      <Cube setStyle={{bottom:60,left:260}}/>
+      <Cube setStyle={{bottom:60,left:"5rem"}}/>
     </div>
   );
 }

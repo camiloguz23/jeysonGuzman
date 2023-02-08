@@ -21,8 +21,8 @@
 
   .modal {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     @include glassEffect(0, 2px);
     background-color: hsla(0, 10%, 60%, 0.3);
     box-shadow: 10px 10px 20px #ffffff, -10px -10px 20px #ffffff;

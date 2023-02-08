@@ -9,7 +9,7 @@ import Cube from "../cube/Cube";
 const About = () => {
   return (
     <div className="about" id="about">
-      <Cube setStyle={{ top: 80, left: 30}} />
+      <Cube setStyle={{ top: "3rem", left: 30}} />
       <Cube setStyle={{ bottom: 0, right: 40}}/>
       <div className="containerAbout">
         <div className="info">
