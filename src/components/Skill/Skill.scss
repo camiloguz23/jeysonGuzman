@@ -17,11 +17,15 @@
     height: 350px;
     box-shadow: 10px 10px 20px #a8aaad, -10px -10px 20px #ffffff;
     border-radius: 8px;
-    padding: 4px;
+    padding: 6px;
 
     @media (max-width:500px) {
       max-width: 90%;
       min-width: 90%;
+    }
+
+    .infoSkill{
+      text-align: center;
     }
 
     .titleSkill {
