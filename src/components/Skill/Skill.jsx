@@ -13,9 +13,9 @@ const Skill = () => {
         <span className="titleSkill">
           <i className="material-symbols-outlined">stars</i>Skill
         </span>
-        <p>
+        <p className="infoSkill">
           Tengo con conocimientos en lenguajes de programacion tanto en Frontend
-          y Backend, PWA, manejo de herramientas CLoud serve
+          y Backend, PWA, manejo de herramientas cloud serve
         </p>
         <div className="itemSkill">
           <LanguagesProgramming onRol={(type) => setRol(type)}/>
